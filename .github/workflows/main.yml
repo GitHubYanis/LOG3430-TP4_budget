@@ -19,7 +19,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run git bisect
-        run: python myscript.py
+        run: python .github/workflows/myscript.py
 
       - name: Run tests
         run: python manage.py test
